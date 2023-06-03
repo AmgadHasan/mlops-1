@@ -6,3 +6,6 @@ lint:
 
 test:
 	python -m pytest -vv
+
+run:
+	python -m uvicorn app:app
